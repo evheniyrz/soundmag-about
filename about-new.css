@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700&display=swap");
+
+.intro,
+.statistics,
+.history,
+.salons {
+  font-family: "Montserrat", sans-serif;
+  font-stretch: normal;
+  color: #403f3f;
+  padding: 20px;
+}
+
+.accent-text-color {
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.intro img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.intro .intro-text-block .intro-title {
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2.146rem + 1.7699vw, 3.75rem);
+  margin-bottom: 20px;
+}
+.intro .intro-text-block .intro-text {
+  font-size: clamp(1.125rem, 1.0188rem + 0.531vw, 1.5rem);
+  margin-bottom: 10px;
+}
+.intro .intro-text-block .intro-text a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: var(--orange);
+  text-underline-offset: 3px;
+}
+
+.statistics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 14px 10px;
+}
+.statistics .statistics-box {
+  flex: 1 1;
+  max-width: 320px;
+  border: 1px solid #403f3f1a;
+  border-radius: 30px;
+  padding: 30px 26px;
+}
+.statistics .statistics-box .statistics-title {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 1.1449rem + 1.4953vw, 2.5rem);
+}
+
+.statistics .statistics-box .statistics-description {
+  font-size: clamp(1rem, 0.9556rem + 0.1869vw, 1.125rem);
+}
+
+.history .history-text-box .history-title {
+  font-weight: 700;
+  font-size: clamp(2.5rem, 2.0561rem + 1.8692vw, 3.75rem);
+}
+.history .history-text-box .history-description {
+  font-size: clamp(1.125rem, 0.9918rem + 0.5607vw, 1.5rem);
+}
