@@ -129,6 +129,7 @@ body {
 
   .history img {
     width: 38%;
+    flex: 1 0 auto;
   }
 }
 
