@@ -30,7 +30,7 @@ body {
 
 .intro .intro-text-block .intro-title {
   font-weight: 700;
-  font-size: clamp(2.5rem, 2.146rem + 1.7699vw, 3.75rem);
+  font-size: clamp(2rem, 1.4815rem + 2.5926vw, 3.75rem);
   margin-bottom: 20px;
 }
 .intro .intro-text-block .intro-text {
@@ -59,7 +59,7 @@ body {
   max-width: 360px;
   border: 1px solid #403f3f1a;
   border-radius: 30px;
-  padding: 30px 24px;
+  padding: 30px 16px;
   line-height: 1.1;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .history .history-text-box .history-title {
   font-weight: 700;
-  font-size: clamp(2.5rem, 2.0561rem + 1.8692vw, 3.75rem);
+  font-size: clamp(2rem, 1.4815rem + 2.5926vw, 3.75rem);
 }
 .history .history-text-box .history-description {
   font-size: clamp(1.125rem, 0.9918rem + 0.5607vw, 1.5rem);
@@ -147,6 +147,7 @@ body {
 }
 
 .salon-title a {
+  display: block;
   font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.5rem);
   line-height: 1.1;
   color: inherit;
@@ -169,6 +170,7 @@ body {
   margin-left: calc(var(--section-padding) * -1);
   padding-bottom: 15px;
   padding-left: var(--section-padding);
+  overflow: hidden;
 }
 
 .swiper-scrollbar-drag {
